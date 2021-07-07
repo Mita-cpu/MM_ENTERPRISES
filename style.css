@@ -1,12 +1,19 @@
+/** {
+	margin:0;
+	padding:0;
+}
+*/
 
 body { 
-	min-height: 100vh;
+	height: 100vh;
+	
 }
 .stickyfooter {
     
     position:relative;
-    position:sticky;
-    top:55%;
+	position:sticky;
+	top:72%;
+    
 }
 .footer-content {
     display:grid;
@@ -20,6 +27,7 @@ body {
     background-color: darkslategray;
     width:100%;
     position:absolute;
+	height:40px;
 }
 
 nav ul {
@@ -44,7 +52,7 @@ nav ul li a{
 /* Navigation wrapper styling*/
 nav {
 	position:fixed;
-	top:0;
+	
 	left:0;
 	width: 100%;
 	height:70px;
@@ -53,23 +61,33 @@ nav {
 	background:rgb(60, 107, 51);
 	
 }
+.ourboxes {
+	color:dimgray;
+	text-align: center;
+	
+}
+.shop {
+    color:dimgrey;
+	text-align: center;
 
+}
 
 p {
 	font-family: 'Farro', sans-serif;
 }
-.order-section {
-	background:url ('../images/back.jpg');
+.ordersection {
+	background-image: url('Images/cab.jpg'); 
 	background-repeat: no-repeat;
-	background-attachment:fixed;
-	background-position: center;
+	background-size: cover;
+	background-position: center center;
+	color: deeppink;
 	
 
 }
 .breaker {
-	background-image: url ('../images/cabbage.jpg');
-	background-attachment:fixed;
-	background-position: center;
+	background-image: url('Images/cabbage.jpg');
+	
+	
 }
 .breakertext {
 	border-radius: 40px;
@@ -111,31 +129,38 @@ p {
 	width:300px;
 	border: 5px  solid green;
 }
+.row {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 100px;
+	padding-left: 20px;
 
-.row{
-	width: 1200px;
-	margin:auto;
-	
+
 }
-.column{
-	margin:20px 40px 1000px 50px;
+.img {
+	height:250px;
+	height:250px;
+	object-fit: cover;
+
+}
+.column {
 	border: 1px solid black;
-	float:left;
-	width:300px;
-	padding-top:20px;
 }
-.column img{
-	width:100%;
-	height:200px;
-}
-.desc{
+ .desc {
 	padding:15px;
 	text-align:center;
 	color:black;
 }
+.enclosers {
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 40px;
+	
+}
+
 .storybox {
 	width: 1200px;
-	margin-left: ;
+	margin-left:20px; 
 	display:flex;
 }
 .Story {
@@ -259,6 +284,14 @@ padding-bottom:40px;
 }
 .socials:hover {
 	color : #3d3d3d;
+}
+.collection {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.hello {
+	color:darkturquoise;
 }
 @media screen and (max-width: 700px) {
 .About {
