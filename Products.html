@@ -11,112 +11,233 @@
     />
 </head>
 <body>
-    <section>
+    <header>
         <nav>
+            <label class="logo">MM<span>Enterprises.</span></label>
             <ul>
                 <li><a href="index2.html">Home</a></li>
-                <li><a href="Products.html">Products</a></li>
+                <li>
+                    <a href="Products.html">Products</a>
+                    <ul>
+                    <li><a href="fruits.html">Fruits</a></li>
+                    <li><a href="vegetables.html">Vegetables</a></li>
+                    <li><a href="nuts.html">Nuts and Snacks</a></li>
+                    <li><a href="#">Customized boxes</a>
+                        <ul>
+                            <li><a href="#">Fruit Box</a></li>
+                            <li><a href="#">Veg Box</a></li>
+                            <li><a href="#">Fruit and Veg Box</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                </li>
                 <li><a href="About.html">About Us</a></li>
                 <li><a href="Contacts.html">Contact Us</a></li>
-                <li><a href="login.htmL">LOGIN</a></li>
-                <li><a href="Register.html">REGISTER</a></li>
+                <li><a href="#">
+                    <i class="fas fa-shopping-cart"></i>
+                </a></li>
+                <li>
+                    <a href="signin.html">
+                        <button class="log-in">
+                            <span>Sign in | Sign up</span>
+                        </button>
+                    </a>
+                </li>
             </ul>
         </nav>
-    </section>
+        
+    </header>
 	<br>
 	<br>
 	<br>
 	<br>
     <section>
+        <h2 class="header2">Here are examples of what's in our fruit and Veggie Boxes</h2>
+        <p
+        class="state2">Please note that these are only examples of what is in the box and items being in the box are
+             subject to availability. 
+            We also like to provide variety from week to week as well as the staples, so items will vary.</p>
         <div class="ourboxes">
-            <h2> Our Boxes</h2>
+
         </div>
     </section>
     
     <section>
         <div class="row">
             <div class="column">
-                <img class="img" src="images/veg.jpg" alt="vegetables"/>
-                    <div class="desc">Fruit only Box</div>
+                <img class="img" src="images/fri.jpg" alt="vegetables"/>
+                    <div class="desc">
+                        <p id="fruit">Fruit only Box</p>
+                        <p class="prices">R149<sup>90</sup></p>
+                        <button class="addto cart">
+                            <span>Add to Cart</span>
+                            
+                            <i class="fas fa-shopping-basket"></i>
+                        </button>
+                        <select>
+                            <optgroup label="Fresh Fruits" class="extra">
+                                <option value="">What's in the Box</option>
+                                <option value="Apples">Apples x 10</option>
+                                <option value="Bananas">Bananas x 750g</option>
+                                <option value="Oranges">Oranges x 10 <header></header></option>
+                                <option value="Avocado">Avocado x 5</option>
+                                <option value="Paw Paw">Paw Paw x 1</option>
+                                <option value="Pears">Pears x 10</option>
+                                <option value="Pomegranate">Pomegranate x 4</option>
+                    
+                                <option value="Avocado">Avocado x 6</option>
+                               
+                            </optgroup>
+                        </select>
+                    </div>
             </div>
             <div class="column">
-                <img class="img" src="images/fri.jpg" alt="fruits"/>
-                    <div class="desc">Veg only Box</div>
+                <img class="img" src="images/veg.jpg" alt="fruits"/>
+                    <div class="desc">
+                        <p class="vegfruit" id="veg">Veg only Box</p>
+                        <p class="prices">R120<sup>90</sup></p>
+                        <button class="addto cart">
+                            <span>Add to Cart</span>
+                            <i class="fas fa-shopping-basket"></i>
+                        </button>
+                        <select>
+                            <optgroup label="Fresh Vegetables">
+                                <option value="">What's in the Box</option>
+                                <option value="Potatoes">Potatoes x 750g</option>
+                                <option value="Carrots">Carrots x 1kg</option>
+                                <option value="Cauliflower">Cauliflower x 1 <header></header></option>
+                                <option value="Butternut">Butternut x 1</option>
+                                <option value="Spinach">Spinach x 1</option>
+                                <option value="Onions">Onions x 350g</option>
+                                <option value="Tomatoes">Tomatoes x 1Kg</option>
+                                <option value="Pepper">Pepper x 500g</option>
+    
+                                <option value="White Cabbage">White Cabbage x 2</option>
+                                <option value="Green Beans">Green Beans x 500g</option>
+                            </optgroup>
+                        </select>
+
+                        </div>
             </div>
             <div class="column">
-                <img class="img" src="images/frveg.jpg" " />
-                    <div class="desc"> Fuit and Veg Box</div>
+                <img class="img" src="images/frveg.jpg"  />
+                    <div class="desc"> 
+                        <p id="fruitandveg">Fruit and Veg Box</p>
+
+                        <p class="prices">R19<sup>90</sup></>
+                        <button class="addto cart">
+                            <span>Add to Cart</span>
+                            <i class="fas fa-shopping-basket"></i>
+                        </button>
+                        <select>
+                            <optgroup label="Fresh Vegetables">
+                                <option value="">What's in the Box</option>
+                                <option value="Potatoes">Potatoes x 750g</option>
+                                <option value="Carrots">Carrots x 1kg</option>
+                
+                                <option value="Butternut">Butternut x 1</option>
+                                <option value="Spinach">Spinach x 1</option>
+                                <option value="Onions">Onions x 350g</option>
+                                <option value="Tomatoes">Tomatoes x 1 Punnet</option>
+                                <option value="Pepper">Pepper x 500g</option>
+                                <option value="Avocado">Avocado x 6</option>
+                                <option value="Bananas">Bananas x 350g</option>
+                                <option value="Apples">Apples x 5</option>
+                                <option value="Oranges">Oranges x 5</option>
+                                <option value="Pomegranate">Pomegranate x 2</option>
+                            </optgroup>
+                        </select>
+                    </div>
             </div>
         </div>
     </section>
     <section>
-        <div class="">
+        <div class="shopping">
             <h3> Shop and customize your own fruit and veg box</h3>
         </div>
         <div class="enclosers">
             <a href="fruits.html">
             <figure class="shop one picture">
-                <img src="Images/shop1.jpg" alt="Fruits" height="400" width="400"/>
+                <img src="Images/shop1.jpg" alt="Fruits" height="300" width="300"/>
                 <figcaption>Fruits</figcaption>
             
             </figure>
         </a>
+        
         <a href="vegetables.html">
             <figure class="shop two picture">
-                <img src="Images/shop2.jpg" alt="Vegetables" height="400" width="400" />
+                <img src="Images/shop2.jpg" alt="Vegetables" height="300" width="300" />
                 <figcaption>Vegetables</figcaption>
             </figure>
         </a>
-        </div>
-        <div class="enclosers">
+        
+    
         <a href="nuts.html">
             <figure class="shop four picture">
-                <img src="Images/shop4.jpg" alt="Nuts and Snacks" height="400" width="400" />
+                <img src="Images/shop4.jpg" alt="Nuts and Snacks" height="300" width="300" />
                 <figcaption>Nuts and Snacks</figcaption>
             </figure>
         </a>
         </div>
     </section>
-   
-    <footer class="stickyfooter">
+    <section>
+        <p class="state2">
+            Orders for each day close at the end of the day before. Orders for delivery on:<br>
 
-        <div class="footer-content">
-            <div class="footer-section links">
-                <h2>Quick links</h2>
-                <ul>
-                    <li><a href="index2.html">Home</a></li>
-                    <li><a href="Products.html">Products</a></li>
-                    <li><a href="About.html">About Us</a></li>
-                    <li><a href="Contacts.html">Contact Us</a></li>
-                </ul>
-            </div>
-            <div class="footer-section socials">
-                <h2> Get to know Us</h2>
-                    <a href="http://www.twitter.com/Mita_Raboya">
-                        <i class="fab fa-twitter icon-4"></i>
+Tuesday close Monday,<br>
+Wednesday close Tuesday,<br>
+Thursday close Wednesday<br>
+
+Please check the Delivery Route for your area.
+        </p>
+    </section>
+   
+   
+    <footer class="footer">
+        <div class="containers">
+            <div class="rows">
+                <div class="footer-col">
+                    <label class="logo">MM<span>Enterprises.</span></label>
+                    <ul>
+                        <li><a href="About.html">about us</a></li>
+                        <li><a href="index2.html">Home</a></li>
+                        <li><a href="Contacts.html">Contact Us</a></li>
+                        <li><a href="Products.html">Our Products</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Our operating hours</h4>
+                    
+                    <p> Monday - Friday</p>
+                    <p> 8am-5pm</p>
+                    <a href="https://web.whatsapp.com/">
+                        <i class="fas fa-phone-square-alt icon-3">+27(0) 72 986 3356</i>
                     </a>
-                    <a href="http://www.instagram.com/mita_midel">
-                        <i class="fab fa-instagram icon-1"></i>
-                    </a>
-                    <a href="malito:mrenterprises94@outlook.com">
-                        <i class="far fa-envelope icon-2"></i>
-                    </a>
+                    <p>mrenterprises94@outlook.com</p>
+                </div>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="http://www.twitter.com/Mita_Raboya"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="footer-section contact">
-                <h2> MR ENTERPRISES</h2>
-                Operating hours:<p> Monday - Friday</p>
-                <p> 8am-5pm</p>
-                <a href="https://web.whatsapp.com/">
-                    <i class="fas fa-phone-square-alt icon-3">+27(0) 72 986 3356</i>
-                </a>
-                <p>mrenterprises94@outlook.com</p>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p> &copy; MM ENTERPRISES | Designed by Mita Raboya</p>
         </div>
     </footer>
-    
         
 </body>
 </html>

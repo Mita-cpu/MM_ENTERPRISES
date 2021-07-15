@@ -11,77 +11,147 @@
 	  />
 </head>
 <body>
-        <nav>
-            <ul>
-                <li><a href="index2.html">Home</a></li>
-                <li><a href="Products.html">Products</a></li>
-                <li><a href="About.html">About Us</a></li>
-                <li><a href="Contacts.html">Contact Us</a></li>
-                <li><a href="login.html">LOGIN</a></li>
-                <li><a href="Register.html">REGISTER</a></li>
-            </ul>
-        </nav>
-        
-        <div id="Contacts"  class="tabcontent" >
-
-        <h1><b> Get in touch with us</b></h1>
-        <form action="Contacts.html" method="post">
-            <p> Name:</p>
-            <input type="text" name="name-surname" maxlength="300" />
-            <p> Surname: </p>
-            <input type="text" name="name-surname" maxlength="300"/><br/>
-            <p>Email:</p>
-            <input type="text" name="name-surname" maxlength="300"  Value=""/></br>
-            <p>Cellphone</p>
-            <input type="text" name="name-surname" maxlength="300"  Value=""/><br/>
-	        <p><input type="submit" Value="Message"></p>
-	        <input type="text" name="name-surname" maxlength="900"  Value=""/><br/>
-	        <p><input type="submit" Value="Send"></p>  
-        </form>
-        <hr/>
-        <br>
-        <br>
-        <i class='fas fa-envelope-square'></i><a href="malito:mitaraboya@gmail.com">Email us</a>
-        </div>
-        <br>
-        <br>
-        <footer class="stickyfooter">
-
-            <div class="footer-content">
-                <div class="footer-section links">
-                    <h2>Quick links</h2>
+    <header>
+    <nav>
+        <label class="logo">MM<span>Enterprises.</span></label>
+        <ul>
+            <li><a href="index2.html">Home</a></li>
+            <li>
+                <a href="Products.html">Products</a>
+                <ul>
+                <li><a href="fruits.html">Fruits</a></li>
+                <li><a href="vegetables.html">Vegetables</a></li>
+                <li><a href="nuts.html">Nuts and Snacks</a></li>
+                <li><a href="#">Customized boxes</a>
                     <ul>
-                        <li><a href="index2.html">Home</a></li>
-                        <li><a href="Products.html">Products</a></li>
-                        <li><a href="About.html">About Us</a></li>
-                        <li><a href="Contacts.html">Contact Us</a></li>
+                        <li><a href="#">Fruit Box</a></li>
+                        <li><a href="#">Veg Box</a></li>
+                        <li><a href="#">Fruit and Veg Box</a></li>
                     </ul>
+                </li>
+            </ul>
+            </li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="Contacts.html">Contact Us</a></li>
+            <li><a href="#">
+                <i class="fas fa-shopping-cart"></i>
+            </a></li>
+            <li>
+                <a href="signin.html">
+                    <button class="log-in">
+                        <span>Sign in | Sign up</span>
+                    </button>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+        <br>
+        <br>
+        <br>
+        <br>
+<section class="contact">
+   
+        <div class="containe">
+
+            <div class="contactinfo">
+                <h2 class="about">Contact Us</h2>
+        <p class="state">Contact MM Enterprises for any queries.</p>
+                <div class="boxs">
+                    <div class="iconz"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>4562 Haakbos street,<br>Mayberry Park, Aberton<br>
+                        1448</p>
+                    </div>
                 </div>
-                <div class="footer-section socials">
-                    <h2> Get to know Us</h2>
-                        <a href="http://www.twitter.com/Mita_Raboya">
-                            <i class="fab fa-twitter icon-4"></i>
-                        </a>
-                        <a href="http://www.instagram.com/mita_midel">
-                            <i class="fab fa-instagram icon-1"></i>
-                        </a>
-                        <a href="malito:mrenterprises94@outlook.com">
-                            <i class="far fa-envelope icon-2"></i>
-                        </a>
+                <div class="boxs">
+                    <div class="iconz"><i class="fas fa-phone-volume"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>0724726133</p>
+                    </div>
                 </div>
-                <div class="footer-section contact">
-                    <h2> MR ENTERPRISES</h2>
-                    Operating hours:<p> Monday - Friday</p>
-                    <p> 8am-5pm</p>
-                    <a href="https://web.whatsapp.com/">
-                        <i class="fas fa-phone-square-alt icon-3">+27(0) 72 986 3356</i>
-                    </a>
-                    <p>mrenterprises94@outlook.com</p>
+                <div class="boxs">
+                    <div class="iconz"><i class="far fa-envelope"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>MMENTERPRISES@OUTLOOK.COM</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+        
+            
+            <div class="hero">
+                
+                <form>
+                    <div class="input-group">
+                        <input type="text" id="name" required="required">
+                        <label for="name"><i class="fas fa-user"></i> Your Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="number" required="required">
+                        <label for="number"><i class="fas fa-phone-square-alt"></i>Your Phone No.</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="Email" required="required">
+                        <label for="email"><i class="fas fa-envelope"></i> Your Email</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message"rows="8" required="required"></textarea>
+                        <label for="message"><i class="fas fa-comments"></i> Your Message</label>
+                    </div>
+                    <button type="submit">SUBMIT <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+</section>
+<footer class="footer">
+    <div class="containers">
+        <div class="rows">
+            <div class="footer-col">
+                <label class="logo">MM<span>Enterprises.</span></label>
+                <ul>
+                    <li><a href="About.html">about us</a></li>
+                    <li><a href="index2.html">Home</a></li>
+                    <li><a href="Contacts.html">Contact Us</a></li>
+                    <li><a href="Products.html">Our Products</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">returns</a></li>
+                    <li><a href="#">order status</a></li>
+                    <li><a href="#">payment options</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Our operating hours</h4>
+                
+                <p> Monday - Friday</p>
+                <p> 8am-5pm</p>
+                <a href="https://web.whatsapp.com/">
+                    <i class="fas fa-phone-square-alt icon-3">+27(0) 72 986 3356</i>
+                </a>
+                <p>mrenterprises94@outlook.com</p>
+            </div>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="http://www.twitter.com/Mita_Raboya"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p> &copy; MM ENTERPRISES | Designed by Mita Raboya</p>
-            </div>
-        </footer>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
