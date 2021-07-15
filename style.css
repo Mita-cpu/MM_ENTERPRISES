@@ -133,6 +133,11 @@ ul{
 	color: #24262b;
 	background-color: #ffffff;
 }
+.bottom{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 15px;
+	color: black;
+}
   
 
   /* sign in or up button styling on the navigation bar*/
@@ -188,7 +193,7 @@ ul{
 	border-radius: 5px;
   }
   button {
-	width: 250px;
+	width: 135px;
 	margin: 8px;
 	padding: 8px;
 	background:green;
