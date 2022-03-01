@@ -39,11 +39,10 @@ Project is: _COMPLETED_
 ## Room for Improvement
 
 Room for improvement:
-- Improvement to be done on sectio positioning
+- Improvement to be done on section positioning
 
 
 ## Acknowledgements
-- This project was based on [this tutorial](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/dom-manipulation).
 - Many thanks to @Rumbie-Mudzie7 for always willing to assist
 
 
