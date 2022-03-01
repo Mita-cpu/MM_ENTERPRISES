@@ -1,10 +1,10 @@
-# YouDevineCakes Online store page
-> The Online Cake Store called Your Devine Cakes is a  project that demonstrates the Author's understanding of JavaScript DOM Manipulation, Modules and  ES6 concepts  by implementing the following requirements of the project:
+# MM ENTERPRISE Fruit and Veg store
+> The Online Fruit and Veg Store called MM ETERPRISES is a  project that demonstrates the Author's understanding of html and css  by implementing the following requirements of the project:
 
-1. Using the DOM Manipulation to manipulate HTML elements in JavaScript.
-2. Using Modules to import and export from the main Javascript file
+1. Using HTML to create text template
+2. Using CSS to style the html template
 
-> Live demo [_here_](https://raw.githack.com/Mita-cpu/MM_ENTERPRISES/master/practice.html).
+> Live demo [_here_](https://raw.githack.com/Mita-cpu/MM_ENTERPRISES/master/index2.html).
 
 ## Table of Contents
 * [Technologies Used](#Built-with)
@@ -18,8 +18,7 @@
 
 ## Built-With
 - HTML5,  
-- JavaScript,
-- ES6 and CSS3
+- CSS
 
 ## Screenshots
 ![Example screenshot](images/screen1.png)
@@ -29,21 +28,18 @@
 
 ## Setup
 To clone the repo to your local repository. Follow this steps
--git clone https://github.com/Mita-cpu/DOM_Project.git
+-git clone https://github.com/Mita-cpu/MM_ENTERPRISES.git
 -cd DOM_Project
--Open practice.html js in your preferred browser.
+-Open index2.html js in your preferred browser.
 ## Authors
 - Mita Raboya
 ## Project Status
-Project is: _in progress_ 
+Project is: _COMPLETED_ 
 
 ## Room for Improvement
 
 Room for improvement:
-- Improvement to be done on how the page link up
-
-To do:
-- Add categories of Cakes in the Ourcakes page
+- Improvement to be done on sectio positioning
 
 
 ## Acknowledgements
